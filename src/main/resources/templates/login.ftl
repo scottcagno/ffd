@@ -43,7 +43,7 @@
 										Your message has been sent. Thank you!
 									</div>
 								</div>
-								<form method="post" action="/secure/user">
+								<form method="post" action="/login">
 									<div class="form">
 										<input type="text" name="username" class="col-sm-12" placeholder="Username">
 										<input type="password" name="password" class="col-sm-12" placeholder="Password">
