@@ -1,0 +1,13 @@
+<script type='text/javascript' src='/static/js/jquery.js'></script>
+<script type='text/javascript' src='/static/js/bootstrap.js'></script>
+<script type='text/javascript' src='/static/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='/static/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='/static/js/common.js'></script>
+<script type='text/javascript' src='/static/js/flexslider.js'></script>
+<script type='text/javascript' src='/static/js/flexsliderhome.js'></script>
+<script type='text/javascript' src='/static/js/carouselrecentportfolio.js'></script>
+<script type='text/javascript' src='/static/js/carousel.js'></script>
+<script type='text/javascript' src='/static/js/prettyPhoto.js'></script>
+<script type='text/javascript' src='/static/js/isotope.js'></script>
+<script type='text/javascript' src='/static/js/flexslidertestimonials.js'></script>
+<script type='text/javascript' src='/static/js/testimonial.js'></script>

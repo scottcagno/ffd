@@ -22,6 +22,16 @@ public class MainController {
 		return "home";
 	}
 
+	@RequestMapping(value = "/videos", method = RequestMethod.GET)
+	public String videos() {
+		return "videos";
+	}
+
+	@RequestMapping(value = "/video", method = RequestMethod.GET)
+	public String video() {
+		return "video";
+	}
+
 	@RequestMapping(value = "/about", method = RequestMethod.GET)
 	public String about() {
 		return "about";
@@ -30,5 +40,10 @@ public class MainController {
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public String contact() {
 		return "contact";
+	}
+
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login() {
+		return "login";
 	}
 }
