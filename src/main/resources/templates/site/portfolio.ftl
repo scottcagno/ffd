@@ -42,19 +42,19 @@
 	<div class="fixedmenu">
 		<div class="container">
 			<div class="row">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index">
 				<img src="/static/img/logo.png" alt="">
 				</a>
 				<nav class="navbar pull-right" role="navigation">
 				<div class="collapse navbar-collapse">
 					<ul id="main-menu" class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index">Home</a></li>
 						<li class="dropdown"><a data-target="#" href="#">Templates <i class="fa fa-angle-down menucaret"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="services.html">Services</a></li>
-							<li><a href="about-us.html">About Us</a></li>
-							<li><a href="knowledge-base.html">Knowledge Base</a></li>
-							<li><a href="testimonials.html">Testimonials</a></li>
+							<li><a href="services">Services</a></li>
+							<li><a href="about-us">About Us</a></li>
+							<li><a href="knowledge-base">Knowledge Base</a></li>
+							<li><a href="testimonials">Testimonials</a></li>
 							<li class="dropdown"><a href="#">Level Menu</a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Some Item</a></li>
@@ -66,34 +66,34 @@
 						</li>
 						<li class="dropdown"><a data-target="#" href="#">Portfolio <i class="fa fa-angle-down menucaret"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="portfolio.html">Portfolio List</a></li>
-							<li><a href="portfoliosingle.html">Portfolio Single</a></li>
+							<li><a href="portfolio">Portfolio List</a></li>
+							<li><a href="portfoliosingle">Portfolio Single</a></li>
 						</ul>
 						</li>
 						<li class="dropdown"><a data-target="#" href="#">Blog <i class="fa fa-angle-down menucaret"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="blog.html">Blog Home</a></li>
-							<li><a href="blogsingle.html">Single Post</a></li>
+							<li><a href="blog">Blog Home</a></li>
+							<li><a href="blogsingle">Single Post</a></li>
 							
 						</ul>
 						</li>
 						<li class="dropdown"><a data-target="#" href="#">Features <i class="fa fa-angle-down menucaret"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="columns.html">Columns</a></li>
-							<li><a href="interface.html">Interface</a></li>
-							<li><a href="sliders.html">Sliders</a></li>
-							<li><a href="boxes.html">Boxes</a></li>
-							<li><a href="buttons.html">Buttons</a></li>
-							<li><a href="pricing.html">Pricing</a></li>
-							<li><a href="lists.html">Lists</a></li>
-							<li><a href="icons.html">Icons</a></li>
+							<li><a href="columns">Columns</a></li>
+							<li><a href="interface">Interface</a></li>
+							<li><a href="sliders">Sliders</a></li>
+							<li><a href="boxes">Boxes</a></li>
+							<li><a href="buttons">Buttons</a></li>
+							<li><a href="pricing">Pricing</a></li>
+							<li><a href="lists">Lists</a></li>
+							<li><a href="icons">Icons</a></li>
 						</ul>
 						</li>
 						<li class="dropdown"><a data-target="#" href="#">Contact <i class="fa fa-angle-down menucaret"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="big-map-contact.html">Big Map Contact</a></li>
-							<li><a href="no-map-contact.html">No Map Contact</a></li>
-							<li><a href="basic-contact.html">Basic Contact</a></li>
+							<li><a href="big-map-contact">Big Map Contact</a></li>
+							<li><a href="no-map-contact">No Map Contact</a></li>
+							<li><a href="basic-contact">Basic Contact</a></li>
 						</ul>
 						</li>
 					</ul>
@@ -113,7 +113,7 @@
 			<div class="col-md-12 negmtop">
 				<h1 class="pgheadertitle animated fadeInLeft pull-left">Portfolio</h1>
 				<span class="pagedescrarea text-right animated fadeInRight pull-right">
-				<i>Need a similar project? Contact us <a href="big-map-contact.html">here</a>!</i>
+				<i>Need a similar project? Contact us <a href="big-map-contact">here</a>!</i>
 				</span>
 			</div>
 		</div>
@@ -143,11 +143,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/1.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/1.jpg" title="La Chaux De Fonds"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">La Chaux De Fonds</a></h1>
+					<h1><a href="portfoliosingle">La Chaux De Fonds</a></h1>
 					<p>
 						 Swiss city in Jura mountains
 					</p>
@@ -159,11 +159,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/2.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/2.jpg" title="Taj Mahal"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Taj Mahal</a></h1>
+					<h1><a href="portfoliosingle">Taj Mahal</a></h1>
 					<p>
 						 one of the eight wonders
 					</p>
@@ -175,11 +175,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/3.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/3.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Versailles, France</a></h1>
+					<h1><a href="portfoliosingle">Versailles, France</a></h1>
 					<p>
 						 Cotelle Gallery
 					</p>
@@ -191,11 +191,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/4.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/4.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">St Petersburg, Russia</a></h1>
+					<h1><a href="portfoliosingle">St Petersburg, Russia</a></h1>
 					<p>
 						 water fountain
 					</p>
@@ -207,11 +207,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/5.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/5.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Grunge Architecture</a></h1>
+					<h1><a href="portfoliosingle">Grunge Architecture</a></h1>
 					<p>
 						 ancient style Europe
 					</p>
@@ -223,11 +223,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/6.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/6.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">France Building</a></h1>
+					<h1><a href="portfoliosingle">France Building</a></h1>
 					<p>
 						 old towers architecture
 					</p>
@@ -239,11 +239,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/7.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/7.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Hall in Tirol</a></h1>
+					<h1><a href="portfoliosingle">Hall in Tirol</a></h1>
 					<p>
 						 town in Tyrol, Austria
 					</p>
@@ -255,11 +255,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/8.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/8.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Opéra-Théatre de Metz</a></h1>
+					<h1><a href="portfoliosingle">Opéra-Théatre de Metz</a></h1>
 					<p>
 						 opera house in France
 					</p>
@@ -271,11 +271,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/9.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/9.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">The Palace of Charles V</a></h1>
+					<h1><a href="portfoliosingle">The Palace of Charles V</a></h1>
 					<p>
 						 construction in Granada, Spain
 					</p>
@@ -287,11 +287,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/10.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/10.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Hamburg, Germany</a></h1>
+					<h1><a href="portfoliosingle">Hamburg, Germany</a></h1>
 					<p>
 						 City Hall
 					</p>
@@ -303,11 +303,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/11.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/11.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Washington Dc</a></h1>
+					<h1><a href="portfoliosingle">Washington Dc</a></h1>
 					<p>
 						 water fountain
 					</p>
@@ -319,11 +319,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/12.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/12.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Bas-Rhin</a></h1>
+					<h1><a href="portfoliosingle">Bas-Rhin</a></h1>
 					<p>
 						 department of France
 					</p>
@@ -335,11 +335,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/13.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/13.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Rome, Italy</a></h1>
+					<h1><a href="portfoliosingle">Rome, Italy</a></h1>
 					<p>
 						 Fontana di Trevi
 					</p>
@@ -351,11 +351,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/14.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/14.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Sacramento, California</a></h1>
+					<h1><a href="portfoliosingle">Sacramento, California</a></h1>
 					<p>
 						 tower bridge
 					</p>
@@ -367,11 +367,11 @@
 					<img src="http://www.wowthemes.net/demo/serenity/img/temp/masonry/15.jpg" alt="">
 					<div class="roll">
 						<div class="wrapcaption">
-							<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a>
+							<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a>
 							<a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo/serenity/img/temp/masonry/15.jpg" title="Title Here"><i class="fa fa-search-plus captionicons"></i></a>
 						</div>
 					</div>
-					<h1><a href="portfoliosingle.html">Haikou, China</a></h1>
+					<h1><a href="portfoliosingle">Haikou, China</a></h1>
 					<p>
 						 Haikou city statue
 					</p>

@@ -43,19 +43,19 @@
 		<div class="fixedmenu">
 			<div class="container">
 				<div class="row">
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index">
 					<img src="/static/img/logo.png" alt="">
 					</a>
 					<nav class="navbar pull-right" role="navigation">
 					<div class="collapse navbar-collapse">
 						<ul id="main-menu" class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index">Home</a></li>
 							<li class="dropdown"><a data-target="#" href="#">Templates <i class="fa fa-angle-down menucaret"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="services.html">Services</a></li>
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="knowledge-base.html">Knowledge Base</a></li>
-								<li><a href="testimonials.html">Testimonials</a></li>
+								<li><a href="services">Services</a></li>
+								<li><a href="about-us">About Us</a></li>
+								<li><a href="knowledge-base">Knowledge Base</a></li>
+								<li><a href="testimonials">Testimonials</a></li>
 								<li class="dropdown"><a href="#">Level Menu</a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Some Item</a></li>
@@ -67,34 +67,34 @@
 							</li>
 							<li class="dropdown"><a data-target="#" href="#">Portfolio <i class="fa fa-angle-down menucaret"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="portfolio.html">Portfolio List</a></li>
-								<li><a href="portfoliosingle.html">Portfolio Single</a></li>
+								<li><a href="portfolio">Portfolio List</a></li>
+								<li><a href="portfoliosingle">Portfolio Single</a></li>
 							</ul>
 							</li>
 							<li class="dropdown"><a data-target="#" href="#">Blog <i class="fa fa-angle-down menucaret"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="blog.html">Blog Home</a></li>
-								<li><a href="blogsingle.html">Single Post</a></li>
+								<li><a href="blog">Blog Home</a></li>
+								<li><a href="blogsingle">Single Post</a></li>
 								
 							</ul>
 							</li>
 							<li class="dropdown"><a data-target="#" href="#">Features <i class="fa fa-angle-down menucaret"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="columns.html">Columns</a></li>
-								<li><a href="interface.html">Interface</a></li>
-								<li><a href="sliders.html">Sliders</a></li>
-								<li><a href="boxes.html">Boxes</a></li>
-								<li><a href="buttons.html">Buttons</a></li>
-								<li><a href="pricing.html">Pricing</a></li>
-								<li><a href="lists.html">Lists</a></li>
-								<li><a href="icons.html">Icons</a></li>
+								<li><a href="columns">Columns</a></li>
+								<li><a href="interface">Interface</a></li>
+								<li><a href="sliders">Sliders</a></li>
+								<li><a href="boxes">Boxes</a></li>
+								<li><a href="buttons">Buttons</a></li>
+								<li><a href="pricing">Pricing</a></li>
+								<li><a href="lists">Lists</a></li>
+								<li><a href="icons">Icons</a></li>
 							</ul>
 							</li>
 							<li class="dropdown"><a data-target="#" href="#">Contact <i class="fa fa-angle-down menucaret"></i></a>
 							<ul class="dropdown-menu">
-								<li><a href="big-map-contact.html">Big Map Contact</a></li>
-								<li><a href="no-map-contact.html">No Map Contact</a></li>
-								<li><a href="basic-contact.html">Basic Contact</a></li>
+								<li><a href="big-map-contact">Big Map Contact</a></li>
+								<li><a href="no-map-contact">No Map Contact</a></li>
+								<li><a href="basic-contact">Basic Contact</a></li>
 							</ul>
 							</li>
 						</ul>
@@ -232,13 +232,13 @@
 							<ul id="recent-portfolio">
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxfkaRb41st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mvyxfkaRb41st5lhmo1_1280"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxfkaRb41st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mvyxfkaRb41st5lhmo1_1280"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxfkaRb41st5lhmo1_1280.jpg" title="Asher Theme"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxfkaRb41st5lhmo1_1280.jpg" title="Asher Theme"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">Asher Theme</a></h1>
+									<h1><a href="portfoliosingle">Asher Theme</a></h1>
 									<p>
 										 multipurpose theme
 									</p>
@@ -246,13 +246,13 @@
 								</li>
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxgqpNHE1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mvyxgqpNHE1st5lhmo1_1280"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxgqpNHE1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mvyxgqpNHE1st5lhmo1_1280"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxgqpNHE1st5lhmo1_1280.jpg" title="WowThemes"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mvyxgqpNHE1st5lhmo1_1280.jpg" title="WowThemes"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">WowThemes</a></h1>
+									<h1><a href="portfoliosingle">WowThemes</a></h1>
 									<p>
 										 biscaya author
 									</p>
@@ -260,13 +260,13 @@
 								</li>
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/post1-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="post1"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/post1-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="post1"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/post1.jpg" title="Salique"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/post1.jpg" title="Salique"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">Salique</a></h1>
+									<h1><a href="portfoliosingle">Salique</a></h1>
 									<p>
 										 multipurpose template
 									</p>
@@ -274,13 +274,13 @@
 								</li>
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzr7n7idZ1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzr7n7idZ1st5lhmo1_1280"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzr7n7idZ1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzr7n7idZ1st5lhmo1_1280"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzr7n7idZ1st5lhmo1_1280.jpg" title="Serenity"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzr7n7idZ1st5lhmo1_1280.jpg" title="Serenity"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">Serenity</a></h1>
+									<h1><a href="portfoliosingle">Serenity</a></h1>
 									<p>
 										 wordpress portfolio
 									</p>
@@ -288,13 +288,13 @@
 								</li>
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzqwktTbR1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzqwktTbR1st5lhmo1_1280"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzqwktTbR1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzqwktTbR1st5lhmo1_1280"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzqwktTbR1st5lhmo1_1280.jpg" title="BizLeaders"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzqwktTbR1st5lhmo1_1280.jpg" title="BizLeaders"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">BizLeaders</a></h1>
+									<h1><a href="portfoliosingle">BizLeaders</a></h1>
 									<p>
 										 business html
 									</p>
@@ -302,13 +302,13 @@
 								</li>
 								<li>
 								<div class="boxcontainer">
-									<a class="imgOpa imgproject" href="portfoliosingle.html"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_myp9dgyhJ71st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_myp9dgyhJ71st5lhmo1_1280"/></a>
+									<a class="imgOpa imgproject" href="portfoliosingle"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_myp9dgyhJ71st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_myp9dgyhJ71st5lhmo1_1280"/></a>
 									<div class="roll">
 										<div class="wrapcaption">
-											<a href="portfoliosingle.html"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_myp9dgyhJ71st5lhmo1_1280.jpg" title="Studio"><i class="fa fa-search-plus captionicons"></i></a>
+											<a href="portfoliosingle"><i class="fa fa-link captionicons"></i></a><a data-gal="prettyPhoto[gallery1]" href="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_myp9dgyhJ71st5lhmo1_1280.jpg" title="Studio"><i class="fa fa-search-plus captionicons"></i></a>
 										</div>
 									</div>
-									<h1><a href="portfoliosingle.html">Vesta</a></h1>
+									<h1><a href="portfoliosingle">Vesta</a></h1>
 									<p>
 										 wordpress theme
 									</p>
@@ -452,7 +452,7 @@
 			<div class="row text-center">
 				<div class="col-md-12">
 					<h1 class="maintitle">Latest Posts<br/>
-					<a href="blog.html" class="colorblack"><i class="fa fa-angle-down"></i></a>
+					<a href="blog" class="colorblack"><i class="fa fa-angle-down"></i></a>
 					</h1>
 				</div>
 			</div>
@@ -462,7 +462,7 @@
 				<ul class="unstyle">
 					<li class="col-md-3 unstyle"><article><a class="imgOpa" href="#"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2013/08/tumblr_mzzqwktTbR1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzqwktTbR1st5lhmo1_1280"/></a>
 					<div class="insidetext">
-						<h2><a href="blogsingle.html">WordPress Tuts</a></h2>
+						<h2><a href="blogsingle">WordPress Tuts</a></h2>
 						<div class="meta">
 							<i class="fa fa-clock-o"></i><span class="day">02</span> / <span class="month">02</span> / <span class="year">2014</span>
 						</div>
@@ -473,7 +473,7 @@
 					</article></li>
 					<li class="col-md-3 unstyle"><article><a class="imgOpa" href="#/"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/post1-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="post1"/></a>
 					<div class="insidetext">
-						<h2><a href="blogsingle.html">Language Files</a></h2>
+						<h2><a href="blogsingle">Language Files</a></h2>
 						<div class="meta">
 							<i class="fa fa-clock-o"></i><span class="day">02</span> / <span class="month">02</span> / <span class="year">2014</span>
 						</div>
@@ -484,7 +484,7 @@
 					</article></li>
 					<li class="col-md-3 unstyle"><article><a class="imgOpa" href="#"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_mzzqxabKjH1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_mzzqxabKjH1st5lhmo1_1280"/></a>
 					<div class="insidetext">
-						<h2><a href="blogsingle.html">Operating Systems</a></h2>
+						<h2><a href="blogsingle">Operating Systems</a></h2>
 						<div class="meta">
 							<i class="fa fa-clock-o"></i><span class="day">01</span> / <span class="month">02</span> / <span class="year">2014</span>
 						</div>
@@ -495,7 +495,7 @@
 					</article></li>
 					<li class="col-md-3 unstyle"><article><a class="imgOpa" href="#"><img width="600" height="350" src="http://www.wowthemes.net/demo-asher/wp-content/uploads/sites/9/2014/02/tumblr_muuig0890N1st5lhmo1_1280-600x350.jpg" class="attachment-recentprojects-thumb wp-post-image" alt="tumblr_muuig0890N1st5lhmo1_1280"/></a>
 					<div class="insidetext">
-						<h2><a href="blogsingle.html">Web Concerns</a></h2>
+						<h2><a href="blogsingle">Web Concerns</a></h2>
 						<div class="meta">
 							<i class="fa fa-clock-o"></i><span class="day">01</span> / <span class="month">02</span> / <span class="year">2014</span>
 						</div>
