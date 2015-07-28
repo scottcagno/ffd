@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Asher - Documentation</title>
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- Le styles -->
+    <link href="css/bootswatch/Cosmo/bootstrap.min.css" rel="stylesheet">
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/black-tie/jquery-ui.css" rel="stylesheet">
+    <link href="css/jquery.tocify.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/rainbow/themes/zenburnesque.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/rainbowlines/theme.css" media="screen" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link href="../assets/ico/favicon.ico" rel="shortcut icon">
+    <link href="../assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="../assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="../assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="../assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+	<style>pre {font-size:12.5px;background-color:lightblue;color:#111;padding:10px;}</pre>
+	</style>
+  </head>
+
+  <body>
+   
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom:120px;">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="http://www.wowthemes.net/premium-themes-templates/"><img src="img/logo.png"></a>
+  </div>
+  
+  <div class="text-center" style="font-size: 24px;line-height: 73px;">
+  Asher - Theme Documentation
+  </div>
+
+</nav>
+     
+
+    <div class="container-fluid" style="margin-top:50px;">
+      <div class="row">
+        <div class="tocify col-sm-3 col-md-3">
+          <div id="toc">
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="col-sm-9 col-md-9">
+          <div class="jumbotron">
+            <h1>Asher</h1>
+
+             <p>Report bugs, discuss features or ask for support here:</p>        
+            
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="http://www.wowthemes.net/support/" target="_blank">Item Support »</a></p>
+          </div>
+          <h2>Requirements</h2>
+          <br>
+          <p class="well">
+         No special requirements.
+          </p>
+          <br>
+          <h2>Optional Dependencies</h2>
+          <br>
+          <p class="well">
+          You may find Notepad++ useful to edit your template code (CSS, HTML, JAVA or PHP code).
+          </p>
+          <br>
+          <h2>Basic Structure</h2><br/>
+          
+<pre>
+&lt;!DOCTYPE html>
+&lt;html lang="en-US">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>Asher - Responsive MultiPurpose by WowThemes&lt;/title>
+&lt;link rel="shortcut icon" href="img/favicon.png"/>
+&lt;link href="css/bootstrap.min.css" rel="stylesheet">
+&lt;link href="inc/shortcodes/css/shortcodes.css" rel="stylesheet">
+&lt;link href="css/font-awesome.css" rel="stylesheet">
+&lt;link href="css/animate.css" rel="stylesheet">
+&lt;link href="css/wowslider.css" rel="stylesheet">
+&lt;link href="style.css" rel="stylesheet">
+
+&lt;!-- Remove the following line to activate boxed layout-->
+&lt;link href="css/fullwidth.css" rel="stylesheet">
+
+&lt;!-- CHANGE THEME SKIN COLOR HERE (replace orange with any other color from css/skins/ folder) -->
+&lt;link href="css/skins/orange.css" rel="stylesheet">
+
+&lt;/head>
+
+  &lt;body class="boxedlayout">
+    &lt;div class="boxedcontent">
+
+     ...menu , content, footer &amp; scripts here...
+
+    &lt;/div>
+  &lt;/body>
+
+&lt;/html>
+</pre>
+
+		   
+		   
+          <h2>Grid System</h2>
+          <br>
+          <p class="well">
+          Grid systems are used for creating page layouts through a series of rows and columns that house your content.
+		  <br/>
+		  Using a single set of .col-md-* grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any .row.
+          </p>
+		  
+		  <div class="bs-docs-grid">
+    <div class="row show-grid">
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+      <div class="col-md-1">.col-md-1</div>
+    </div>
+    <div class="row show-grid">
+      <div class="col-md-8">.col-md-8</div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+    <div class="row show-grid">
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+    <div class="row show-grid">
+      <div class="col-md-6">.col-md-6</div>
+      <div class="col-md-6">.col-md-6</div>
+    </div>
+  </div>
+          <br>
+		  
+		  <div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-1"</span><span class="nt">&gt;</span>.col-md-1<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-8"</span><span class="nt">&gt;</span>.col-md-8<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-6"</span><span class="nt">&gt;</span>.col-md-6<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-6"</span><span class="nt">&gt;</span>.col-md-6<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div><br/>
+
+<h2>Layouts & Colors</h2>
+<p class="well">
+LAYOUT<BR/>In order to switch from the theme's default full width layout to the boxed one, remove the line that calls the fullwidth.css stylesheet from the header of each file (screenshot below).
+SKIN COLOR<br/>In order to change the color skin, replace skin-orange.css in all of our html documents with the skin color of your choice from css/ folder (screenshot below).
+</P>
+<img src="img/headers.png">
+<br/><br/>
+<h2>Menu</h2>
+<br/><b>MENU STRUCTURE EXAMPLE:</b><br/>
+<pre>
+&lt;nav class="navbar pull-right" role="navigation">
+	&lt;div class="collapse navbar-collapse">
+		&lt;ul id="main-menu" class="nav navbar-nav">
+			&lt;li>&lt;a href="index.html">Simple menu item&lt;/a>&lt;/li>
+			&lt;li class="dropdown">&lt;a data-target="#" href="#"> Dropdown item &lt;i class="fa fa-angle-down menucaret">&lt;/i>&lt;/a>
+			&lt;ul class="dropdown-menu">
+				&lt;li>&lt;a href="services.html">Item 1&lt;/a>&lt;/li>
+				&lt;li>&lt;a href="about-us.html">Item 2&lt;/a>&lt;/li>
+				&lt;li class="dropdown">&lt;a href="#">Next Level Menu&lt;/a>
+				&lt;ul class="dropdown-menu">
+					&lt;li>&lt;a href="#">Some Item&lt;/a>&lt;/li>
+					&lt;li>&lt;a href="#">Another Item&lt;/a>&lt;/li>
+					&lt;li>&lt;a href="#">More Items&lt;/a>&lt;/li>
+				&lt;/ul>
+				&lt;/li>
+			&lt;/ul>
+			&lt;/li>			
+		&lt;/ul>
+	&lt;/div>
+&lt;/nav>
+</pre>
+<br/>
+
+<h2>Slider</h2>
+<p class="well"> 
+	The theme uses the flexslider plugin which is called via files:<br/>
+	'js/flexslider.js'<br/>
+	'js/flexsliderhome.js' (home slider)<br/>
+	'js/flexslidertestimonials.js' (testimonials)<br/>
+	'js/flexsliderbasic.js' (anything) <br/>
+</p>
+	
+<pre style='color:#000000;background:#ffffff;'>
+jQuery(document).ready(function ($) <span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>{</span>
+	$(<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>'#home-slider'</span>).flexslider(<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>{</span>
+	pauseOnHover: true,    
+	slideshow: true,                <span style='color:#3f7f59; '>//Boolean: Animate slider automatically</span>
+	slideshowSpeed: 6000,           <span style='color:#3f7f59; '>//Integer: Set the speed of the slideshow cycling, in milliseconds</span>
+	animationSpeed: 600,
+	animation: <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>fade</span><span style='color:#2a00ff; '>"</span>,              <span style='color:#3f7f59; '>//String: Select your animation type, "fade" or "slide"</span>
+	easing: <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>swing</span><span style='color:#2a00ff; '>"</span>,               <span style='color:#3f7f59; '>//{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!</span>
+	direction: <span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>horizontal</span><span style='color:#2a00ff; '>"</span>,
+	controlNav: true,               <span style='color:#3f7f59; '>//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage</span>
+	useCSS: true,                   <span style='color:#3f7f59; '>//{NEW} Boolean: Slider will use CSS3 transitions if available</span>
+	touch: true, 
+	directionNav: true
+	<span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>}</span>);
+  <span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>}</span>);
+</pre>
+
+<pre style='color:#000000;background:#ffffff;'>
+jQuery(document).ready(function ($) <span style='color:#800080; '>{</span>
+	$<span style='color:#808030; '>(</span><span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>'#testimonials-slider'</span><span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>flexslider<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>
+	pauseOnHover<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>    
+	slideshow<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>false</span><span style='color:#808030; '>,</span>                <span style='color:#696969; '>//Boolean: Animate slider automatically</span>
+	slideshowSpeed<span style='color:#808030; '>:</span> <span style='color:#008c00; '>5000</span><span style='color:#808030; '>,</span>           <span style='color:#696969; '>//Integer: Set the speed of the slideshow cycling, in milliseconds</span>
+	animationSpeed<span style='color:#808030; '>:</span> <span style='color:#008c00; '>1300</span><span style='color:#808030; '>,</span>
+	animation<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"slide"</span><span style='color:#808030; '>,</span>              <span style='color:#696969; '>//String: Select your animation type, "fade" or "slide"</span>
+	easing<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"swing"</span><span style='color:#808030; '>,</span>               <span style='color:#696969; '>//{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!</span>
+	direction<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"horizontal"</span><span style='color:#808030; '>,</span>
+	controlNav<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>               <span style='color:#696969; '>//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage</span>
+	useCSS<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>                   <span style='color:#696969; '>//{NEW} Boolean: Slider will use CSS3 transitions if available</span>
+	touch<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span> 
+	directionNav<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>false</span>
+	<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+  <span style='color:#800080; '>}</span>)<span style='color:#808030; '>;</span>
+</pre>
+
+<pre style='color:#000000;background:#ffffff;'>
+jQuery(document).ready(function ($) <span style='color:#800080; '>{</span>
+	$<span style='color:#808030; '>(</span><span style='color:#ffffff; background:#dd0000; font-weight:bold; font-style:italic; '>'#basic-slider'</span><span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>flexslider<span style='color:#808030; '>(</span><span style='color:#800080; '>{</span>
+	pauseOnHover<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>    
+	slideshow<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>false</span><span style='color:#808030; '>,</span>                <span style='color:#696969; '>//Boolean: Animate slider automatically</span>
+	slideshowSpeed<span style='color:#808030; '>:</span> <span style='color:#008c00; '>5000</span><span style='color:#808030; '>,</span>           <span style='color:#696969; '>//Integer: Set the speed of the slideshow cycling, in milliseconds</span>
+	animationSpeed<span style='color:#808030; '>:</span> <span style='color:#008c00; '>1300</span><span style='color:#808030; '>,</span>
+	animation<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"fade"</span><span style='color:#808030; '>,</span>              <span style='color:#696969; '>//String: Select your animation type, "fade" or "slide"</span>
+	easing<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"swing"</span><span style='color:#808030; '>,</span>               <span style='color:#696969; '>//{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!</span>
+	direction<span style='color:#808030; '>:</span> <span style='color:#0000e6; '>"horizontal"</span><span style='color:#808030; '>,</span>
+	controlNav<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>false</span><span style='color:#808030; '>,</span>               <span style='color:#696969; '>//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage</span>
+	useCSS<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>                   <span style='color:#696969; '>//{NEW} Boolean: Slider will use CSS3 transitions if available</span>
+	touch<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span> 
+	directionNav<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span><span style='color:#808030; '>,</span>
+	smoothHeight<span style='color:#808030; '>:</span> <span style='color:#800000; font-weight:bold; '>true</span>
+	<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+  <span style='color:#800080; '>}</span>)<span style='color:#808030; '>;</span>
+</pre>
+
+
+<p class="well">
+<span class="note">Listed below are all of the options available to customize FlexSlider to suite your needs, along with their default values. </span>
+</p>
+<pre style='color:#d1d1d1;background:#000000;'>
+<span style='color:#e34adc; '>namespace:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>flex-</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>             <span style='color:#9999a9; '>//{NEW} String: Prefix string attached to the class of every element generated by the plugin</span>
+<span style='color:#e34adc; '>selector:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>.slides > li</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>       <span style='color:#9999a9; '>//{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril</span>
+<span style='color:#e34adc; '>animation:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>fade</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>              <span style='color:#9999a9; '>//String: Select your animation type, "fade" or "slide"</span>
+<span style='color:#e34adc; '>easing:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>swing</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!</span>
+<span style='color:#e34adc; '>direction:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>horizontal</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>        <span style='color:#9999a9; '>//String: Select the sliding direction, "horizontal" or "vertical"</span>
+<span style='color:#e34adc; '>reverse:</span> false<span style='color:#d2cd86; '>,</span>                 <span style='color:#9999a9; '>//{NEW} Boolean: Reverse the animation direction</span>
+<span style='color:#e34adc; '>animationLoop:</span> true<span style='color:#d2cd86; '>,</span>             <span style='color:#9999a9; '>//Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end</span>
+<span style='color:#e34adc; '>smoothHeight:</span> false<span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode  </span>
+<span style='color:#e34adc; '>startAt:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                     <span style='color:#9999a9; '>//Integer: The slide that the slider should start on. Array notation (0 = first slide)</span>
+<span style='color:#e34adc; '>slideshow:</span> true<span style='color:#d2cd86; '>,</span>                <span style='color:#9999a9; '>//Boolean: Animate slider automatically</span>
+<span style='color:#e34adc; '>slideshowSpeed:</span> <span style='color:#008c00; '>7000</span><span style='color:#d2cd86; '>,</span>           <span style='color:#9999a9; '>//Integer: Set the speed of the slideshow cycling, in milliseconds</span>
+<span style='color:#e34adc; '>animationSpeed:</span> <span style='color:#008c00; '>600</span><span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//Integer: Set the speed of animations, in milliseconds</span>
+<span style='color:#e34adc; '>initDelay:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                   <span style='color:#9999a9; '>//{NEW} Integer: Set an initialization delay, in milliseconds</span>
+<span style='color:#e34adc; '>randomize:</span> false<span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//Boolean: Randomize slide order</span>
+
+<span style='color:#9999a9; '>// Usability features</span>
+<span style='color:#e34adc; '>pauseOnAction:</span> true<span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//Boolean: Pause the slideshow when interacting with control elements, highly recommended.</span>
+<span style='color:#e34adc; '>pauseOnHover:</span> false<span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering</span>
+<span style='color:#e34adc; '>useCSS:</span> true<span style='color:#d2cd86; '>,</span>                   <span style='color:#9999a9; '>//{NEW} Boolean: Slider will use CSS3 transitions if available</span>
+<span style='color:#e34adc; '>touch:</span> true<span style='color:#d2cd86; '>,</span>                    <span style='color:#9999a9; '>//{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices</span>
+<span style='color:#e34adc; '>video:</span> false<span style='color:#d2cd86; '>,</span>                   <span style='color:#9999a9; '>//{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches</span>
+
+<span style='color:#9999a9; '>// Primary Controls</span>
+<span style='color:#e34adc; '>controlNav:</span> true<span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage</span>
+<span style='color:#e34adc; '>directionNav:</span> true<span style='color:#d2cd86; '>,</span>             <span style='color:#9999a9; '>//Boolean: Create navigation for previous/next navigation? (true/false)</span>
+<span style='color:#e34adc; '>prevText:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>Previous</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>           <span style='color:#9999a9; '>//String: Set the text for the "previous" directionNav item</span>
+<span style='color:#e34adc; '>nextText:</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>Next</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//String: Set the text for the "next" directionNav item</span>
+
+<span style='color:#9999a9; '>// Secondary Navigation</span>
+<span style='color:#e34adc; '>keyboard:</span> true<span style='color:#d2cd86; '>,</span>                 <span style='color:#9999a9; '>//Boolean: Allow slider navigating via keyboard left/right keys</span>
+<span style='color:#e34adc; '>multipleKeyboard:</span> false<span style='color:#d2cd86; '>,</span>        <span style='color:#9999a9; '>//{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.</span>
+<span style='color:#e34adc; '>mousewheel:</span> false<span style='color:#d2cd86; '>,</span>              <span style='color:#9999a9; '>//{UPDATED} Boolean: Requires jquery.mousewheel.js (</span><span style='color:#6070ec; '>https://github.com/brandonaaron/jquery-mousewheel</span><span style='color:#9999a9; '>) - Allows slider navigating via mousewheel</span>
+<span style='color:#e34adc; '>pausePlay:</span> false<span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//Boolean: Create pause/play dynamic element</span>
+<span style='color:#e34adc; '>pauseText:</span> <span style='color:#ffffff; background:#dd0000; '>'Pause'</span><span style='color:#d2cd86; '>,</span>             <span style='color:#9999a9; '>//String: Set the text for the "pause" pausePlay item</span>
+<span style='color:#e34adc; '>playText:</span> <span style='color:#00c4c4; '>'Play'</span><span style='color:#d2cd86; '>,</span>               <span style='color:#9999a9; '>//String: Set the text for the "play" pausePlay item</span>
+
+<span style='color:#9999a9; '>// Special properties</span>
+<span style='color:#e34adc; '>controlsContainer:</span> <span style='color:#02d045; '>"</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>          <span style='color:#9999a9; '>//{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.</span>
+<span style='color:#e34adc; '>manualControls:</span> <span style='color:#02d045; '>"</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>             <span style='color:#9999a9; '>//Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.</span>
+<span style='color:#e34adc; '>sync:</span> <span style='color:#02d045; '>"</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>                       <span style='color:#9999a9; '>//{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.</span>
+<span style='color:#e34adc; '>asNavFor:</span> <span style='color:#02d045; '>"</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>,</span>                   <span style='color:#9999a9; '>//{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider</span>
+
+<span style='color:#9999a9; '>// Carousel Options</span>
+<span style='color:#e34adc; '>itemWidth:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                   <span style='color:#9999a9; '>//{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.</span>
+<span style='color:#e34adc; '>itemMargin:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                  <span style='color:#9999a9; '>//{NEW} Integer: Margin between carousel items.</span>
+<span style='color:#e34adc; '>minItems:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                    <span style='color:#9999a9; '>//{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.</span>
+<span style='color:#e34adc; '>maxItems:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                    <span style='color:#9999a9; '>//{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.</span>
+<span style='color:#e34adc; '>move:</span> <span style='color:#008c00; '>0</span><span style='color:#d2cd86; '>,</span>                        <span style='color:#9999a9; '>//{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.</span>
+                                
+<span style='color:#9999a9; '>// Callback API</span>
+<span style='color:#e34adc; '>start:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//Callback: function(slider) - Fires when the slider loads the first slide</span>
+<span style='color:#e34adc; '>before:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>,</span>           <span style='color:#9999a9; '>//Callback: function(slider) - Fires asynchronously with each slider animation</span>
+<span style='color:#e34adc; '>after:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//Callback: function(slider) - Fires after each slider animation completes</span>
+<span style='color:#e34adc; '>end:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>,</span>              <span style='color:#9999a9; '>//Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)</span>
+<span style='color:#e34adc; '>added:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>,</span>            <span style='color:#9999a9; '>//{NEW} Callback: function(slider) - Fires after a slide is added</span>
+<span style='color:#e34adc; '>removed:</span> function<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>{</span><span style='color:#b060b0; '>}</span>           <span style='color:#9999a9; '>//{NEW} Callback: function(slider) - Fires after a slide is removed</span>
+</pre>
+
+
+	<br/>
+
+<h2>Portfolio</h2>
+
+<p class="well">STRUCTURE</p>
+
+<pre>
+&lt;div class="boxcontainer">
+	&lt;img src="http://img/dummyimage.jpg" alt="">
+		&lt;div class="roll">
+			&lt;div class="wrapcaption">
+				&lt;a href="portfoliosingle.html">&lt;i class="fa fa-link captionicons">&lt;/i>&lt;/a>
+				&lt;a data-gal="prettyPhoto[gallery1]" href="http://img/dummyimage.jpg" title="My Title">&lt;i class="fa fa-search-plus captionicons">&lt;/i>&lt;/a>
+			&lt;/div>
+		&lt;/div>
+		&lt;h1>&lt;a href="portfoliosingle.html">My Title&lt;/a>&lt;/h1>
+		&lt;p>
+			 Description here
+		&lt;/p>
+	&lt;/div>
+&lt;/div>
+</pre>
+
+
+<p class="well">
+What to do:<br/>
+Line 1 - replace/add your categories (cat1 cat3). See below for more details<br/>
+- replace img/dummyimage.jpg with your own image path<br/>
+- replace portfoliosingle.html with the link to your project single<br/>
+- replace  the title<br/>
+- replace the short description<br/>
+</p>
+
+<p class="well">
+ABOUT THE FILTERING<br>
+You have noticed above, line 1, "cat2 cat3". These are the categories of items, as defined in the filter navigation. See below the filter navigation as found in our theme, too:
+</p>
+
+<pre>
+&lt;div id="filter">
+	&lt;ul>						
+		&lt;li>&lt;a href="" data-filter="*" class="selected">&lt;i class="icon icon-reorder">&lt;/i>&amp;nbsp; All Items&lt;/a>&lt;/li>
+		&lt;li>&lt;a href="" data-filter=".cat1">&lt;i class="icon icon-th-large">&lt;/i>&amp;nbsp; Landscape&lt;/a>&lt;/li>
+		&lt;li>&lt;a href="" data-filter=".cat2">&lt;i class="icon icon-th-list">&lt;/i>&amp;nbsp; Overview&lt;/a>&lt;/li>
+		&lt;li>&lt;a href="" data-filter=".cat3">&lt;i class="icon icon-th">&lt;/i>&amp;nbsp; Green Nature&lt;/a>&lt;/li>
+	&lt;/ul>
+&lt;/div>
+</pre><br/>
+So, add cat1 if for example you want your item to appear when you click on Landscape. Or cat3 for Green Nature click. Or cat1 cat3 for both etc.
+	
+<h2>Carousel</h2>
+<p class="well">The carousel plugin is active in index.html file, for the recent projects area.<br/> It uses the javascript files: js/carousel.js & carouselrecentportfolio.js.<br/> BASIC STRUCTURE:</p>
+<pre>
+&lt;div class="recent-portfolio">
+	&lt;div class="list_carousel">
+	
+		&lt;div class="carousel_nav">
+			&lt;a class="prev" id="car_prev" href="#">&lt;span>prev&lt;/span>&lt;/a>&lt;a class="next" id="car_next" href="#">&lt;span>next&lt;/span>&lt;/a>
+		&lt;/div>
+		
+		&lt;div class="clearfix">&lt;/div>
+		
+		&lt;ul id="recent-portfolio">
+			&lt;li>
+			&lt;div class="boxcontainer">
+				&lt;a class="imgOpa imgproject" href="portfoliosingle.html">&lt;img src="yourimagepath.jpg" class="attachment-recentprojects-thumb"/>&lt;/a>
+				&lt;div class="roll">
+					&lt;div class="wrapcaption">
+						&lt;a href="portfoliosingle.html">&lt;i class="fa fa-link captionicons">&lt;/i>&lt;/a>&lt;a data-gal="prettyPhoto[gallery1]" href="yourimagepath.jpg" title="Title here">&lt;i class="fa fa-search-plus captionicons">&lt;/i>&lt;/a>
+					&lt;/div>
+				&lt;/div>
+				&lt;h1>&lt;a href="portfoliosingle.html">Title here&lt;/a>&lt;/h1>
+				&lt;p>
+					 description here
+				&lt;/p>
+			&lt;/div>
+			&lt;/li>
+
+			&lt;li>
+			&lt;div class="boxcontainer">
+				&lt;a class="imgOpa imgproject" href="portfoliosingle.html">&lt;img src="yourimagepath.jpg" class="attachment-recentprojects-thumb"/>&lt;/a>
+				&lt;div class="roll">
+					&lt;div class="wrapcaption">
+						&lt;a href="portfoliosingle.html">&lt;i class="fa fa-link captionicons">&lt;/i>&lt;/a>&lt;a data-gal="prettyPhoto[gallery1]" href="yourimagepath.jpg" title="Title here">&lt;i class="fa fa-search-plus captionicons">&lt;/i>&lt;/a>
+					&lt;/div>
+				&lt;/div>
+				&lt;h1>&lt;a href="portfoliosingle.html">Title here&lt;/a>&lt;/h1>
+				&lt;p>
+					 description here
+				&lt;/p>
+			&lt;/div>
+			&lt;/li>
+
+		&lt;/ul>
+		
+	&lt;/div>
+&lt;/div>
+</pre>
+
+	
+	<br/>
+	<h2>Contact</h2>
+  <p class="well note">
+      <span class="note">The contact form from footer is functional, just replace the current e-mail address with your own. Find the following line in contact.php file (23 if you're using Notepad++ editor) and replace the existing e-mail address with your own.
+ </p>
+
+
+
+
+<br/>
+<h2>Icons</h2>
+<p class="well note"><span class="note">You can find a full list of available icons supported by this theme <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>.
+</p>
+
+<br/>
+	<h2>Animations</h2>
+	<p class="well note"><span class="note">The CSS animation allows you to create the following preset animations:</span>
+		 <ul>
+<li>bounce</li>
+<li>bounce In</li>
+<li>bounce In Up</li>
+<li>bounce In Down</li>
+<li>bounce In Left</li>
+<li>bounce In Right</li>
+<li>bounce Out</li>
+<li>bounce Out Up</li>
+<li>bounce Out Down</li>
+<li>bounce Out Left</li>
+<li>bounce Out Right</li>
+<li>fade In</li>
+<li>fade In Up</li>
+<li>fade In Down</li>
+<li>fade In Left</li>
+<li>fade In Right</li>
+<li>fade In Up Big</li>
+<li>fade In Down Big</li>
+<li>fade In Left Big</li>
+<li>fade In Right Big</li>
+<li>fade Out</li>
+<li>fade Out Up</li>
+<li>fade Out Down</li>
+<li>fade Out Left</li>
+<li>fade Out Right</li>
+<li>fade Out Up Big</li>
+<li>fade Out Down Big</li>
+<li>fade Out Left Big</li>
+<li>fade Out Right Big</li>
+<li>flash</li>
+<li>flip</li>
+<li>flip In X</li>
+<li>flip Out X</li>
+<li>flip In Y</li>
+<li>flip Out Y</li>
+<li>hinge</li>
+<li>light Speed In</li>
+<li>light Speed Out</li>
+<li>pulse</li>
+<li>rotate In</li>
+<li>rotate In Up Left</li>
+<li>rotate In Down Left</li>
+<li>rotate In Up Right</li>
+<li>rotate In Down Right</li>
+<li>rotate Out</li>
+<li>rotate Out Up Left</li>
+<li>rotate Out Down Left</li>
+<li>rotate Out Up Right</li>
+<li>rotate Out Down Right</li>
+<li>roll In</li>
+<li>roll Out</li>
+<li>shake</li>
+<li>swing</li>
+<li>tada</li>
+<li>wiggle</li>
+<li>wobble</li>
+</ul>
+</p>
+<p class="well">
+<span class="note">To any div element you can add an animation. In the following example, the class <code>bounceIn animated</code> is added to the div class <code>col-md-4</code>:</span>
+</p>
+<pre style='color:#d1d1d1;background:#000000;'>
+<span style='color:#d2cd86; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>div</span> class<span style='color:#d2cd86; '>=</span><span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>col-md-4 bounceIn animated</span><span style='color:#02d045; '>"</span><span style='color:#d2cd86; '>></span>
+</pre>
+         
+          <br>
+          <h2>Credits</h2>
+          
+          <p class="well">
+              <span class="note">
+                <a href="http://getbootstrap.com">Bootstrap</a> <br/>				 
+				Easing<br/>
+				Flexslider <br/>
+				jQuery carouFredSel<br/>
+				FitVids<br/>
+				Quovolver<br/>
+				Isotope<br/>
+				HTML5 Shiv<br/>
+				Google Fonts
+				
+				
+              </span>
+          </p>
+          <br>
+         
+		<h2>Copyright</h2>
+        <p class="well">
+            <span class="note">Template created by<a href="http://www.wowthemes.net/premium-themes-templates/"> © WowThemes.net</a>. You may remove the copyright area from the bottom of the template and replace it with your own.</span>
+        </p>
+      </div>
+      </div><!--/row-->
+          
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/rainbow/rainbow.min.js"></script>
+    <script src="js/rainbow/language/generic.js"></script>
+    <script src="js/rainbow/language/html.js"></script>
+    <script src="js/rainbow/language/css.js"></script>
+    <script src="js/rainbow/language/javascript.js"></script>
+    <script src="js/rainbowlines/rainbow.linenumbers.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.tocify.min.js"></script>
+    <script src="js/prettify.js"></script>
+
+    <script>
+        $(function() {
+
+          $("#toc").tocify({ selectors: "h2, h3, h4", scrollTo: 60, highlightOffset: 60, extendPage: true });
+
+          prettyPrint();
+
+          $(".optionName").popover({ trigger: "hover", container: "body" });
+
+          $("a[href='#']").click(function(event) {
+
+              event.preventDefault();
+
+          });
+
+          Rainbow.color();
+        });
+    </script>
+  
+</div></body></html>
