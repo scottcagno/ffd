@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value = "/site")
 public class SiteController {
 
+	// TODO: Not really used unless you need to see a page from the original template
+
 	@RequestMapping(value = "/about-us", method = RequestMethod.GET)
 	public String aboutUs() {
 		return "site/about-us";
