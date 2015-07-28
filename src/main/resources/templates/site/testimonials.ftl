@@ -16,7 +16,7 @@
 <link href="/static/css/fullwidth.css" rel="stylesheet">
 
 <!-- CHANGE THEME SKIN COLOR HERE (replace orange with any other color from css/skins/ folder) -->
-<link href="/static/css/skins/orange.css" rel="stylesheet">
+<link href="/static/css/skins/red.css" rel="stylesheet">
 
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
